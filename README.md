@@ -1,10 +1,14 @@
 # Readme
 
-This README should be completed by the student
-
 # 1. About
 
 * Author: Kai Run Leong (S3862092)
+ 
+* University: RMIT University
+
+* Project Type: Course Project
+
+* Course: Further Programming, (Semester 1, 2021)
 
 * Content : This project is a simple hotdesking graphical user interface made for the employee of Arub.
 
