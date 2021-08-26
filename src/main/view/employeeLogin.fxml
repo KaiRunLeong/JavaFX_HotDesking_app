@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.EmployeeLoginController">
+   <children>
+      <Label fx:id="welcomeName" layoutX="14.0" layoutY="14.0" prefHeight="20.0" prefWidth="232.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <VBox layoutX="212.0" layoutY="91.0" prefHeight="235.0" prefWidth="177.0" spacing="15.0">
+         <children>
+            <Button fx:id="book" mnemonicParsing="false" onAction="#bookTable" prefHeight="65.0" prefWidth="185.0" text="Book" />
+            <Button fx:id="manageBookingButton" mnemonicParsing="false" onAction="#manageBooking" prefHeight="65.0" prefWidth="185.0" text="Manage Booking" />
+            <Button fx:id="manageAccountButton" mnemonicParsing="false" onAction="#manageAccount" prefHeight="65.0" prefWidth="185.0" text="Manage Account" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

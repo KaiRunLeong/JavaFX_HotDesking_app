@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.ManageBookingController">
+   <children>
+      <Label fx:id="nextBooking" layoutX="14.0" layoutY="14.0" prefHeight="28.0" prefWidth="191.0" text="Your next booking:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="tableBooked" layoutX="209.0" layoutY="116.0" prefHeight="84.0" prefWidth="183.0" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <HBox layoutX="135.0" layoutY="276.0" prefHeight="61.0" prefWidth="332.0" spacing="60.0">
+         <children>
+            <Button fx:id="reject" mnemonicParsing="false" onAction="#rejectBooking" prefHeight="61.0" prefWidth="140.0" text="Reject Booking" />
+            <Button fx:id="checkIn" mnemonicParsing="false" onAction="#checkInBooking" prefHeight="61.0" prefWidth="140.0" text="CheckIn" />
+         </children>
+      </HBox>
+      <Button fx:id="back" layoutX="14.0" layoutY="359.0" mnemonicParsing="false" onAction="#previousPage" text="Back" />
+      <Label fx:id="warning" layoutX="255.0" layoutY="239.0" prefHeight="17.0" prefWidth="112.0" textAlignment="CENTER" textFill="#eb1919" wrapText="true" />
+   </children>
+</AnchorPane>

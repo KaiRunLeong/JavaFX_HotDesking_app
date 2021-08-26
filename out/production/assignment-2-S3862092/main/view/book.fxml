@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.BookController">
+   <children>
+      <Button fx:id="back" layoutX="14.0" layoutY="359.0" mnemonicParsing="false" onAction="#previousPage" text="Back" />
+      <VBox layoutX="215.0" layoutY="121.0" prefHeight="158.0" prefWidth="171.0" spacing="15.0">
+         <children>
+            <Button fx:id="makeBooking" mnemonicParsing="false" onAction="#bookTable" prefHeight="65.0" prefWidth="185.0" text="Make a booking" />
+            <Button fx:id="cancelBooking" mnemonicParsing="false" onAction="#cancelBooking" prefHeight="65.0" prefWidth="185.0" text="Cancel a booking" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

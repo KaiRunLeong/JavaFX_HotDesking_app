@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.AdminLoginController">
+   <children>
+      <Label fx:id="welcomeName" layoutX="14.0" layoutY="14.0" prefHeight="20.0" prefWidth="232.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <VBox layoutX="218.0" layoutY="34.0" prefHeight="310.0" prefWidth="177.0" spacing="15.0">
+         <children>
+            <Button fx:id="managementButton" mnemonicParsing="false" onAction="#management" prefHeight="65.0" prefWidth="185.0" text="Management" />
+            <Button fx:id="viewDeskDetailsButton" mnemonicParsing="false" onAction="#viewDeskDetails" prefHeight="65.0" prefWidth="185.0" text="View Desk Details" />
+            <Button fx:id="releaseBookingButton" mnemonicParsing="false" onAction="#releaseBooking" prefHeight="65.0" prefWidth="185.0" text="Release Booking" />
+            <Button fx:id="generateReportsButton" mnemonicParsing="false" onAction="#generateReports" prefHeight="65.0" prefWidth="185.0" text="Generate Reports" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
