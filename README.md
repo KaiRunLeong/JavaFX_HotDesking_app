@@ -60,7 +60,7 @@ Packaging for test:
 
 2- Open IntelliJ IDEA, select "File" from the top menu, select "New" and select "Project from Version Control"  
  
-3- Download the SQLite JDBC jar file.
+3- Ensure that the SQLite JDBC jar file has been downloaded (lib file).
 
 4- In your project under project root, make a new directory called lib and move the jar file into lib folder
 
