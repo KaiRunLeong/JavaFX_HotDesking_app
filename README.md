@@ -72,7 +72,7 @@ Packaging for test:
 
 8- Also go to "Project" choose SDK 1.8 and project language level to 8
 
-8- Click on Apply and then OK to close the window
+9- Click on Apply and then OK to close the window
 
 Now you are ready to Run the Application.
 
